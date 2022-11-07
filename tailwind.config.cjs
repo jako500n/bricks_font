@@ -8,6 +8,7 @@ module.exports = {
         groen: "#237841",
         gul: "#FECC33",
         roed: "#C91A09",
+        hvid: "#FFFFFF",
       },
     },
   },
