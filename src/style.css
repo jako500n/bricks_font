@@ -2,9 +2,72 @@
 @tailwind components;
 @tailwind utilities;
 
+/* vollkorn-regular - latin */
+@font-face {
+  font-family: "Vollkorn";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("/fonts/vollkorn-v21-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("/fonts/vollkorn-v21-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* league-gothic-regular - latin */
+@font-face {
+  font-family: "League Gothic";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("/fonts/league-gothic-v6-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("/fonts/league-gothic-v6-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "League Gothic", sans-serif;
+}
+
+p {
+  font-family: "Vollkorn", serif;
+}
+
 body {
   background-image: url("/img/bg-texture.svg");
   background-repeat: repeat;
   background-position: top left;
-  background-size: 13.3%;
+}
+
+/* MEDIA QUERY MEDIUM DEVICES */
+@media screen and (min-width: 800px) {
+  body {
+    background-size: 13.3%;
+  }
+}
+
+/* MEDIA QUERY SMALL DEVICES */
+@media screen and (max-width: 800px) {
+  body {
+    background-size: 33%;
+  }
+}
+
+.image {
+  width: 10vmin;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.image[data-status="inactive"] {
+  display: none;
+}
+
+.image[data-status="active"] {
+  display: block;
+}
+
+.groen_boks {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
