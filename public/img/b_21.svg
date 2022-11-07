@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253.16 403.16">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #606060;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="1.77" y="101.85" width="99.89" height="299.81"/>
+  <ellipse class="cls-1" cx="25.75" cy="376.67" rx="14.98" ry="14.99"/>
+  <ellipse class="cls-1" cx="25.75" cy="325.71" rx="14.98" ry="14.99"/>
+  <ellipse class="cls-1" cx="25.75" cy="276.74" rx="14.98" ry="14.99"/>
+  <ellipse class="cls-1" cx="76.69" cy="376.67" rx="14.98" ry="14.99"/>
+  <ellipse class="cls-1" cx="76.69" cy="325.71" rx="14.98" ry="14.99"/>
+  <ellipse class="cls-1" cx="76.69" cy="276.74" rx="14.98" ry="14.99"/>
+  <ellipse class="cls-1" cx="25.75" cy="226.77" rx="14.98" ry="14.99"/>
+  <ellipse class="cls-1" cx="25.75" cy="175.8" rx="14.98" ry="14.99"/>
+  <ellipse class="cls-1" cx="25.75" cy="126.83" rx="14.98" ry="14.99"/>
+  <ellipse class="cls-1" cx="76.69" cy="226.77" rx="14.98" ry="14.99"/>
+  <ellipse class="cls-1" cx="76.69" cy="175.8" rx="14.98" ry="14.99"/>
+  <ellipse class="cls-1" cx="76.69" cy="126.83" rx="14.98" ry="14.99"/>
+</svg>
